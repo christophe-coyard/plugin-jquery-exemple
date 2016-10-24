@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Créer son plugin jquery</title>
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> 
+		<script type="text/javascript" src="js/link_alert.js"></script>
+		<style type="text/css">
+			body { color:#555; font:14px verdana; line-height: 20px; }
+			a { color:#e1472f; }
+			p { padding:5px 0; }
+		</style>
+	</head>
+	<body>
+		<h1 style="text-align:center;">Développer son propre plugin jQuery</h1>
+		<h3>Cliquez sur un <a href="https://news.google.fr/news?pz=1&ned=fr">lien</a> pour tester :</h3>
+		<p>Lorem ipsum <a href="http://deercreation.fr/">deercreation</a> dolor sit amet, consectetur adipisicing elit. Molestiae, enim debitis unde incidunt optio accusamus quo doloremque sed accusantium provident voluptatibus voluptatum sunt officiis. Fuga, hic nulla placeat veniam tempore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, eaque, <a href="http://www.google.fr">optio adipisci exercitationem</a> voluptatem magnam atque labore rerum eum quidem in dolorem consequatur dignissimos rem dicta sed unde enim veritatis.</p>
+		<p><a href="http://www.lemonde.fr">Le monde</a> ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, enim debitis unde incidunt optio accusamus quo doloremque sed accusantium provident voluptatibus voluptatum sunt officiis. Fuga, hic nulla placeat veniam tempore! Lorem ipsum dolor <a href="http://deercreation.fr/">deercreation</a> sit amet, consectetur adipisicing elit. Culpa, eaque, voluptatem magnam atque labore rerum eum quidem in dolorem consequatur dignissimos rem dicta sed unde enim veritatis.</p>
+		<script type="text/javascript">
+			$('a').link_alert();
+		</script>
+	</body>
+</html>
